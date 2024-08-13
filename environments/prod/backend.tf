@@ -14,6 +14,6 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate-prod"
+    bucket = "ferrous-cipher-432403-j0-tfstate-prod"
   }
 }
