@@ -18,3 +18,8 @@ module "deploy-dev" {
   data_quality_spec_file = "rules/orders.dev.yaml"
   environment            = "dev"
 }
+
+import {
+  id = "projects/ferrous-cipher-432403-j0/locations/us-central1/dataScans/ui-scan-1"
+  to = google_dataplex_datascan.default
+}
